@@ -41,13 +41,18 @@
                             <input type="text" name="title" value="<?php echo $title; ?>" 
                             class="form-control" placeholder="Update Title" required>
                         </div>
+                        <div class="mb-3"></div> <!-- line break -->
                         <div class="form-group">
-                            <textarea name="description" rows="2" class="form-control" 
+                            <textarea name="description" rows="4" class="form-control" 
                             placeholder="Update Description"><?php echo $description; ?></textarea>
                         </div>
-                        <button class="btn btn-success" name="update">
-                            Update 
-                        </button>
+                        <div class="mb-3"></div> <!-- line break -->
+                        <div class="d-flex justify-content-between">
+                            <button class="btn btn-success" name="update">
+                                Update 
+                            </button>
+                            <a href="index.php" class="btn btn-secondary">Cancel</a>
+                        </div>
                     </form>
                 </div>
             </div>

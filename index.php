@@ -21,10 +21,12 @@
                         <input type="text" name="title" class="form-control"
                         placeholder="Task Title" autofocus required>
                     </div>
+                    <div class="mb-3"></div> <!-- line break -->
                     <div class="form-group">
-                        <textarea name="description" rows="2" class="form-control"
+                        <textarea name="description" rows="4" class="form-control"
                         placeholder="Task Description"></textarea>
                     </div>
+                    <div class="mb-3"></div> <!-- line break -->
                     <input type="submit" class="btn btn-success btn-block" name="save_task" value="Save Task">
                 </form>
             </div>

@@ -53,14 +53,10 @@
                         <td> <?php echo $row['created_at']?> </td>
                         <td>
                             <a href="edit_task.php?id=<?php echo $row['id']?>" class="btn btn-secondary">
-                                <i class="fas fa-marker">
-
-                                </i>
+                                <i class="fas fa-marker"></i>
                             </a>
-                            <a href="delete_task.php?id=<?php echo $row['id']?>" class="btn btn-danger">
-                                <i class="far fa-trash-alt">
-                                    
-                                </i>
+                            <a href="#" class="btn btn-danger" onclick="confirmDelete(<?php echo $row['id']?>)">
+                                <i class="far fa-trash-alt"></i>
                             </a>
                         </td>
                         </tr>
@@ -72,5 +68,14 @@
     </div>
 
 </div>
+
+<script>
+    function confirmDelete(taskId) {
+        var confirmation = confirm("Are you sure you want to delete this task?");
+        if (confirmation) {
+            window.location = "delete_task.php?id=" + taskId;
+        }
+    }
+</script>
 
 <?php include("includes/footer.php") ?>

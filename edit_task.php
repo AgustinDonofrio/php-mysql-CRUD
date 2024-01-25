@@ -39,7 +39,7 @@
                     <form action="edit_task.php?id=<?php echo $_GET['id']; ?>" method="POST">
                         <div class="form-group">
                             <input type="text" name="title" value="<?php echo $title; ?>" 
-                            class="form-control" placeholder="Update Title">
+                            class="form-control" placeholder="Update Title" required>
                         </div>
                         <div class="form-group">
                             <textarea name="description" rows="2" class="form-control" 

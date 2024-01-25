@@ -52,10 +52,6 @@ Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes 
 1. Coloca el proyecto en la carpeta `htdocs` de tu instalación de XAMPP (por defecto es: `C:\xampp\htdocs`).
 2. Abre tu navegador y accede a `http://localhost/tu-proyecto`.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el texto completo de la licencia en el archivo [LICENSE](./LICENSE).
-
 # Personal Task CRUD proyect [🇺🇸]
 
 ## Project Description
@@ -109,8 +105,3 @@ Before running the application, make sure you have the following requirements in
 
 1. Place the project in the `htdocs` folder of your XAMPP installation (by default: `C:\xampp\htdocs`).
 2. Open your browser and go to `http://localhost/your-project`.
-
-
-## License
-
-This project is under the MIT License. Check the full text of the license in the [LICENSE](./LICENSE) file.
